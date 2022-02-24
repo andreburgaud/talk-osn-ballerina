@@ -15,9 +15,11 @@ public function main(string lang = "fr") returns error? {
 
     // json resp = check salut->get(string `/hellosalut/?lang=${lang}`);
     // io:println("JSON  :", resp);
+    // io:println(typeof resp);
 
     // CodeHello ch = check resp.cloneWithType(CodeHello);
     // io:println("Record:", ch);
+    // io:println(typeof ch);
 
     CodeHello ch = check salut->get(string `/hellosalut/?lang=${lang}`);
     io:println(`code : ${ch.code}`);
