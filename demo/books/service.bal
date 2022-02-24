@@ -20,7 +20,7 @@ final readonly & table<Book> key(isbn) books = table [
         },
         {
             isbn: "9781484251386",
-            title: "Cloud Native Application with Ballerina",
+            title: "Beginning Ballerina Programming",
             authors: ["Anjana Fernando", "Lakmal Warusawithana"]
         },
         {
