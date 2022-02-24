@@ -37,7 +37,7 @@ service / on new http:Listener(port) {
     # + isbn - Book ISBN (International Standard Book Number)
     # + return - Book details or error
     resource function get book/[string isbn]() returns Book|http:NotFound {
-        Book? book = books[isbn];
+        Book? book = books[isbn]; // Book? same as union type Book|()
         if book is () {
             return <http:NotFound>{body: {"error": string `Book with ISBN ${isbn} Not Found`}};
         } else {
