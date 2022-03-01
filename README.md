@@ -46,3 +46,7 @@ The latest patch distribution '2201.0.0' is already the active distribution
 ## Build and Test Examples
 
 There is a `justfile` at the root of the project allowing to build and test all examples. [just](https://github.com/casey/just) is required to execute the build. A `justfile` is similar to a `Makefile`, and it is more friendly.
+
+## Video
+
+https://vimeo.com/681563861
